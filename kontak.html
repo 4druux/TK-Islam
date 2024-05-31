@@ -34,13 +34,19 @@
       class="navbar navbar-expand-lg bg-body-tertiary fixed-top border border"
     >
       <div class="container">
-        <a class="navbar-brand fw-medium" href="index.html">
+        <a class="navbar-logo pe-2" href="index.html">
           <img
-            class="h-auto d-inline-block pe-3"
+            class="h-auto d-inline-block"
             style="width: 70px"
             src="aset/img/download-removebg-preview.png"
             alt=""
-          />KB-TK ISLAM BUKIT INDAH</a
+          />
+          <a
+            class="navbar-text"
+            style="font-weight: 600; text-decoration: none; color: #000"
+            href=""
+            >KB-TK ISLAM BUKIT INDAH</a
+          ></a
         >
         <button
           class="navbar-toggler"
@@ -62,13 +68,12 @@
               <a class="nav-link px-3" href="profil.html">Profil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3" href="kegiatan.html">Kegiatan</a>
+              <a class="nav-link active fw-medium px-3" href="kegiatan.html"
+                >Kegiatan</a
+              >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link active fw-medium px-3"
-                href="kontak.html"
-                aria-disabled="true"
+              <a class="nav-link px-3" href="kontak.html" aria-disabled="true"
                 >Kontak</a
               >
             </li>
@@ -153,16 +158,22 @@
     <footer class="bg-dark text-white pt-5">
       <div class="container text-center text-md-left">
         <div class="row text-start text-md-left">
-          <div class="col-md-3 col-lg-3 col-xl-5 mx-auto mt-3 d-flex">
+          <div
+            id="footer-logo"
+            class="col-md-3 col-lg-3 col-xl-5 mx-auto mt-3 d-flex"
+          >
             <img
               src="aset/img/download-removebg-preview.png"
               class="h-25 pe-3"
               style="width: 90px"
               alt=""
             />
-            <h5 class="text-uppercase font-weight-bold text-warning">
+            <h5
+              id="footer-text"
+              class="text-uppercase font-weight-bold text-warning"
+            >
               KB-TK Islam Bukit Indah
-              <ul class="list-unstyled mx-auto mt-3">
+              <ul id="footer-social" class="list-unstyled mx-auto mt-3">
                 <li class="list-inline-item">
                   <a
                     href="#"
@@ -210,69 +221,80 @@
           </div>
 
           <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+            <h5
+              id="footer-text"
+              class="text-uppercase mb-4 font-weight-bold text-warning"
+            >
               Tentang Sekolah
             </h5>
-            <p>
-              <a
-                href="profil.html#staff"
-                class="text-white"
-                style="text-decoration: none"
-                >Profil Guru</a
-              >
-            </p>
-            <p>
-              <a
-                href="profil.html#fasilitas"
-                class="text-white"
-                style="text-decoration: none"
-                >Fasilitas Sekolah</a
-              >
-            </p>
-            <p>
-              <a
-                href="index.html#sejarah"
-                class="text-white"
-                style="text-decoration: none"
-                >Sejarah Sekolah</a
-              >
-            </p>
-            <p>
-              <a
-                href="kegiatan.html#kegiatan"
-                class="text-white"
-                style="text-decoration: none"
-                >Kegiatan Sekolah</a
-              >
-            </p>
+            <div id="footer-isi">
+              <p>
+                <a
+                  href="profil.html#staff"
+                  class="text-white"
+                  style="text-decoration: none"
+                  >Profil Guru</a
+                >
+              </p>
+              <p>
+                <a
+                  href="profil.html#fasilitas"
+                  class="text-white"
+                  style="text-decoration: none"
+                  >Fasilitas Sekolah</a
+                >
+              </p>
+              <p>
+                <a
+                  href="index.html#sejarah"
+                  class="text-white"
+                  style="text-decoration: none"
+                  >Sejarah Sekolah</a
+                >
+              </p>
+              <p>
+                <a
+                  href="kegiatan.html#kegiatan"
+                  class="text-white"
+                  style="text-decoration: none"
+                  >Kegiatan Sekolah</a
+                >
+              </p>
+            </div>
           </div>
 
           <div class="col-md-4 col-lg-3 col-xl-4 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+            <h5
+              id="footer-text"
+              class="text-uppercase mb-4 font-weight-bold text-warning"
+            >
               Kontak Kami
             </h5>
-            <p class="d-flex">
-              <i class="fas fa-home pt-1" style="margin-right: 20px"></i>Jl.
-              Bukit Indah No.2, RT.5/RW.1, Serua, Kec. Ciputat, Kota Tangerang
-              Selatan, Banten 15414
-            </p>
-            <p class="d-flex">
-              <i class="fas fa-envelope pt-1" style="margin-right: 20px"></i
-              >tkdsaasdadsaddsfssfsdfdsgsgsgs@gmail.com
-            </p>
-            <p>
-              <i class="fas fa-phone" style="margin-right: 20px"></i
-              >0851-6107-6056
-            </p>
-            <p>
-              <i class="fab fa-instagram" style="margin-right: 20px"></i>tk_ibi
-            </p>
+            <div id="footer-isi">
+              <p class="d-flex">
+                <i class="fas fa-home pt-1" style="margin-right: 20px"></i>Jl.
+                Bukit Indah No.2, RT.5/RW.1, Serua, Kec. Ciputat, Kota Tangerang
+                Selatan, Banten 15414
+              </p>
+              <p class="d-flex">
+                <i class="fas fa-envelope pt-1" style="margin-right: 20px"></i
+                >tkdsaasdadsadaddin@gmail.com
+              </p>
+              <p>
+                <i class="fas fa-phone" style="margin-right: 20px"></i
+                >0851-6107-6056
+              </p>
+              <p>
+                <i class="fab fa-instagram" style="margin-right: 20px"></i
+                >tk_ibi
+              </p>
+            </div>
           </div>
 
           <hr class="my-5" />
 
           <div class="text-center p-3">
-            <p>
+            <p id="footer-isi">
               Copyright @2024 All rights reserved by:
               <a href="#" style="text-decoration: none">
                 <strong class="text-warning">Dedy Samaga Yasya</strong>
