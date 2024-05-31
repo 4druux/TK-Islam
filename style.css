@@ -59,10 +59,36 @@
   color: #001a2e;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 825px) {
+  .navbar-logo img {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .navbar-text {
+    font-size: 15px;
+    margin-right: auto;
+  }
+
   #sejarah-1 {
-    width: 380px;
+    width: 365px;
     height: 300px;
+  }
+
+  #footer-text {
+    font-size: 16px;
+  }
+
+  #footer-logo img {
+    display: none;
+  }
+
+  #footer-social i {
+    font-size: 19px;
+  }
+
+  #footer-isi {
+    font-size: 14px;
   }
 }
 
