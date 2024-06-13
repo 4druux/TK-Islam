@@ -19,6 +19,14 @@
 }
 
 @media screen and (max-width: 825px) {
+  /* Navbar */
+  .navbar-nav {
+    margin-top: 1rem;
+  }
+  .navbar-nav a::after {
+    display: none;
+  }
+
   .navbar-logo img {
     width: fit-content;
     height: fit-content;
@@ -38,7 +46,11 @@
     height: 100%;
   }
 
-  .carousel-caption {
+  .carousel-caption h5 {
+    font-size: 15px;
+  }
+
+  .carousel-caption p {
     font-size: 8px;
   }
 
