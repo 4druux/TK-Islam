@@ -59,6 +59,12 @@ nav {
   box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Kegiatan */
+.card-body .card-text {
+  text-align: justify;
+  margin: 1rem 0;
+}
+
 /* kontak */
 .location {
   width: 80%;
@@ -76,11 +82,6 @@ nav {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-}
-
-.contact-col {
-  flex-basis: 48%;
-  margin-bottom: 30px;
 }
 
 .contact-col div {
@@ -105,29 +106,6 @@ nav {
   margin-bottom: 5px;
   color: #555;
   font-weight: 400;
-}
-
-.contact-col input,
-.contact-col textarea {
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 17px;
-  outline: none;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-.hero-btn {
-  background-color: #212529;
-  color: white;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
 }
 
 /* Scroll Up */
